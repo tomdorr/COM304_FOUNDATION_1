@@ -1,0 +1,6 @@
+version: '3'
+services:
+  node:
+    image: lukechilds/dockerpi:latest
+    ports:
+      - "2201-2212:2222"
