@@ -48,7 +48,10 @@
 *.eps      binary
 
 # Scripts
+# C Gallen added .exp expect file
+
 *.bash     text eol=lf
+*.exp      text eol=lf
 *.fish     text eol=lf
 *.ksh      text eol=lf
 *.sh       text eol=lf

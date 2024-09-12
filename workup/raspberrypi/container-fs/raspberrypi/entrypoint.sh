@@ -1,5 +1,9 @@
 #!/bin/sh
 echo "running injected local entrypoint.sh"
+echo "installing expect"
+apt -y update
+apt-get -y install expect
+echo "expect installed"
 
 GIB_IN_BYTES="1073741824"
 
