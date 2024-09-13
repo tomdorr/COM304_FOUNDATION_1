@@ -37,16 +37,20 @@ You can also use this as a method for getting the example code onto your raspber
 To make this process easier, this repository is organised in three separate sections.
 
 [sessions](../main/sessions) Course Material.
+
 This is where the tutorials and examples for each week will be created and updated each week.
 PLEASE do not change material here as it will be updated each week and you will have difficulty merging any changes with yours.
 Instead COPY each session's the material into your own [myPracticeCourseWork](../main/myPracticeCourseWork) and use and modify it from there.
 
-[myPracticeCourseWork](../main/myPracticeCourseWork) 
+[myPracticeCourseWork](../main/myPracticeCourseWork) Your working area.
+
 This is where you should create and save your own practice projects.
 Your tutor will never overlay new material here so you can commit any of your own work into this folder.
 When you `commit` your changes and `push` them to github, your work in [myPracticeCourseWork](../main/myPracticeCourseWork) will be a permanent record of what you have been working on.
 
-[workup](../main/workup) This is where your tutor creates and updates material before publication each week. 
+[workup](../main/workup) Tutors work in progress.
+
+This is where your tutor creates and updates material before publication each week. 
 You are welcome to look at stuf here but mostly it is not complete and wont work (yet).
 Dont make your own changes here.
 
