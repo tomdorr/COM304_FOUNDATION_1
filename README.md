@@ -1,5 +1,8 @@
 
 # Foundation Computing Course (COM403) 2024
+
+[myPracticeCourseWork](../main/myPracticeCourseWork) This is where you should create and save your own practice projects.
+
 (Contents may be subject to changes)
 
 |Session      |Subject  |Details|
