@@ -2,7 +2,11 @@
 
 # Session 1 
 
-Initial exercises for the course.
+## Getting started with git
 
-TBC
+## Creating a project plan
+
+## starting a project diary
+
+## getting started with your Raspberry Pi
 

@@ -3,8 +3,8 @@
 
 This will teach you a little bit about git and how to fork a copy of this repository into your own github account.
 
-You will then be able to clone your fork locally and then follow the instructions in the [maven-setup](../main/session1/maven-setup) project to get javac and maven working. 
-After this you can then proceed to doing the exercises in [session1](../main/session1/).
+You will then be able to clone your fork locally.
+After this you can then proceed to doing the exercises in [session1](../main/sessions/session1/).
 
 ### Introduction to GIT
 To be a professional developer, you will need to become proficient at using version control systems.
@@ -13,14 +13,16 @@ Presently one of the most popular, git, was developed by Linus Torvalds to help 
 
 In recent years many open source projects have migrated their code base to github (https://github.com) which supports a collaborative workflow for team development and sharing of source code using git. 
 
-The principle advantage of git over other version control systems is that it is completely distributed. When you use git you clone a complete local copy of the repository you are cloning (usually referred to as the origin). You can develop code and save your changes in your local repository completely off line. At a later stage you may wish to push your changes to the on line repository or pull changes others have made into your local copy. 
+The principle advantage of git over other version control systems is that it is completely distributed. When you use git you clone a complete local copy of the repository you are cloning (usually referred to as the origin).
+You can develop code and save your changes in your local repository completely off line. 
+At a later stage you may wish to `push` your changes to the on line repository or `pull` changes others have made into your local copy. 
 
 There are many on line tutorials on using git and it will be worth while spending some time on these to get proficient. e.g.
 * https://try.github.io/ Resources to learn Git
 * https://guides.github.com/introduction/git-handbook/ Git Handbook 
 * https://learngitbranching.js.org/ provides a very useful interactive tutorial on branching and merging.
  
-Many IDE's including Netbeans support git natively, but it is very important to learn to use the git command line independently of the IDE so that you have more control over what is happening.
+Many Integrated Development Environments (IDE's) support git natively, but it is very important to learn to use the git command line independently of the IDE so that you have more control over what is happening.
 
 Using git successfully with a team can be complex but fortunately you only need to master a few commands to work on your own project
 ```
@@ -34,10 +36,10 @@ git push (a command to push your latest commits up to the remote repository)
 
 ### IMPORTANT GitHub Security
 Github no longer accepts a simple username and password for accessing accounts. 
-Please see the page on [Github Security](../main/githubsecurity.md) to see how to set up certificates to access your github account from the university machines.
+Please see the page on [Github Security](../main/githubsecurity.md) to see how to set up certificates to access your github account from your PC account.
 
-### Forking the com619-devops1 repo
-You could just clone the master com619-devops1 repo and work on the clone locally. 
+### Forking the COM304_FOUNDATION_1 repo
+You could just clone the main COM304_FOUNDATION_1 repo and work on the clone locally. 
 However you do not have write permissions to this repo and so you couldn't save (or push) any changes or work you have added.
 Therefore, to be able to use the examples and save your own work, it will be better to create a copy (called a fork) of this repository in your own github account where you will be able to push and save your changes on line.
 
@@ -47,7 +49,7 @@ PLEASE NOTE, while github is very reliable, you should also keep a local backup 
 
 To create a fork of this repository
 1. sign in to your own github account
-2. navigate to this repository https://github.com/gallenc/com619-devops1/
+2. navigate to this repository https://github.com/gallenc/COM304_FOUNDATION_1/
 3. click the FORK icon
 
 ![alt text](../main/docs/images/ForkingARepo.png "Figure ForkingARepo.png")
@@ -61,25 +63,25 @@ Having forked the repository, go to your own github account and clone the reposi
 Rather than just clone the repository into a workspace on your IDE, it is good practice to create a separate folder on your local machine where you will clone your remote repositories. 
 You can import separate projects from this clone into your IDE workspace as you need to work on them.
 
-Create a git repo folder on your local drive and clone your fork of com619-devops1 into it.
+Create a git repo folder on your local drive and clone your fork of COM304_FOUNDATION_1 into it.
 
 DO NOT check out your repository onto a network (e.g. U:) drive or a One Drive location. 
 The time latency in these drives can cause git to fail.
 
-I usually create a git repository close the the root of the C: drive (e.g. C:/devel/gitrepos/com619-devops1)
+I usually create a git repository close the the root of the C: drive (e.g. C:/devel/gitrepos/COM304_FOUNDATION_1)
 
 ```
 mkdir gitrepos
 cd gitrepos
-git clone https://github.com/ {your github id }/com619-devops1.git
+git clone https://github.com/ {your github id }/COM304_FOUNDATION_1.git
 ```
 Important:  if using SSH keys use
 ```
-git clone  git@github.com:{your github id }/com619-devops1.git
+git clone  git@github.com:{your github id }/COM304_FOUNDATION_1.git
 ```
 
 You should now have a clone of your fork in your gitrepos directory
-gitrepos/com619-devops1
+gitrepos/COM304_FOUNDATION_1
 
 You can see how to open projects in this repo using the Netbeans IDE in the exercises under
 
@@ -89,9 +91,9 @@ You can see how to open projects in this repo using the Netbeans IDE in the exer
 You should set the view on your windows file explorer to show hidden files and file extensions. 
 This will allow you to see git and IDE specific files which are otherwise hidden.
 
-In particular, you will see that the top level folder com619-devops1 contains a .git folder.
+In particular, you will see that the top level folder COM304_FOUNDATION_1 contains a .git folder.
 This is where git stores all of the branches versions and changes to your repository. 
-The rest of the files under com619-devops1 are the currently checked out versions of your code.
+The rest of the files under COM304_FOUNDATION_1 are the currently checked out versions of your code.
 
 You will also notice that many of the projects in this repo have a .gitignore file.
 This tells git to ignore certain directories or files when committing changes.
@@ -112,68 +114,68 @@ PLEASE DO NOT CHANGE ANYTHING IN YOUR LOCAL REPO EXCEPT IN myPracticeCourseWork.
 you can see which remote repositories are referenced in your local repo using
 ```
 $ git remote -v
-origin  https://github.com/{ your github id}/com619-devops1.git (fetch)
-origin  https://github.com/{ your github id}/com619-devops1.git (push)
+origin  https://github.com/{ your github id}/COM304_FOUNDATION_1.git (fetch)
+origin  https://github.com/{ your github id}/COM304_FOUNDATION_1.git (push)
 ```
 if you are using SSH keys this will be
 ```
 $ git remote -v
-origin  git@github.com:{ your github id}/com619-devops1.git (fetch)
-origin  git@github.com:{ your github id}/com619-devops1.git (push)
+origin  git@github.com:{ your github id}/COM304_FOUNDATION_1.git (fetch)
+origin  git@github.com:{ your github id}/COM304_FOUNDATION_1.git (push)
 ```
 
 To sync with the upstream repo you need to add another remote repository
 ```
-$ git remote add upstream https://github.com/gallenc/com619-devops1.git
+$ git remote add upstream https://github.com/gallenc/COM304_FOUNDATION_1.git
 ```
 NOTE even if you are using SSH to acces your repo, use https to access the upstream repo because you do not need a password or certificates to pull a public repo.
 
 To see the upstream repositories use
 ```
 $ git remote -v
-origin  https://github.com/{ your github id}/com619-devops1.git (fetch)
-origin  https://github.com/{ your github id}/com619-devops1.git (push)
-upstream        https://github.com/gallenc/com619-devops1.git (fetch)
-upstream        https://github.com/gallenc/com619-devops1.git (push)
+origin  https://github.com/{ your github id}/COM304_FOUNDATION_1.git (fetch)
+origin  https://github.com/{ your github id}/COM304_FOUNDATION_1.git (push)
+upstream        https://github.com/gallenc/COM304_FOUNDATION_1.git (fetch)
+upstream        https://github.com/gallenc/COM304_FOUNDATION_1.git (push)
 ```
 if you are using SSH this will be
 ```
 $ git remote -v
-origin  git@github.com:{ your github id}/com619-devops1.git (fetch)
-origin  git@github.com:{ your github id}/com619-devops1.git (push)
-upstream        https://github.com/gallenc/com619-devops1.git (fetch)
-upstream        https://github.com/gallenc/com619-devops1.git (push)
+origin  git@github.com:{ your github id}/COM304_FOUNDATION_1.git (fetch)
+origin  git@github.com:{ your github id}/COM304_FOUNDATION_1.git (push)
+upstream        https://github.com/gallenc/COM304_FOUNDATION_1.git (fetch)
+upstream        https://github.com/gallenc/COM304_FOUNDATION_1.git (push)
 ```
 
 Note that git calls the github repository which your repository is linked to 'origin'.
 This is the respository on github where where push commands normally send the changes.
 The 'upstream' repository is an alternative repository from which you pull additional content for merging with your work.
 
-Having made these changes you can now keep your own fork of com619-devops1 synced with the class examples in the upstream repository using a few Git commands.
+Having made these changes you can now keep your own fork of COM304_FOUNDATION_1 synced with the class examples in the upstream repository using a few Git commands.
 
 1. Fetch the branches and their respective commits from the upstream repository. 
-Commits to master will be stored in a local branch, upstream/master.
+Commits to main will be stored in a local branch, upstream/main.
 ```
 git fetch upstream
-From https://github.com/gallenc/com619-devops1
- * [new branch]      master     -> upstream/master
+From https://github.com/gallenc/COM304_FOUNDATION_1
+ * [new branch]      main     -> upstream/main
 remote: Enumerating objects: 18, done.
 remote: Counting objects: 100% (18/18), done.
 remote: Compressing objects: 100% (7/7), done.
 remote: Total 12 (delta 3), reused 12 (delta 3), pack-reused 0
 Unpacking objects: 100% (12/12), done.
-From https://github.com/gallenc/com619-devops1
-   ddd9643..bd85c0d  master     -> upstream/master
+From https://github.com/gallenc/COM304_FOUNDATION_1
+   ddd9643..bd85c0d  main     -> upstream/main
 ```
 
-2. Check out your fork's local master branch.
+2. Check out your fork's local main branch.
 ```
-git checkout master
-Switched to branch 'master'
+git checkout main
+Switched to branch 'main'
 ```
-3. Merge the changes from upstream/master into your local master branch. This brings your fork's master branch into sync with the upstream repository, without losing your local changes.
+3. Merge the changes from upstream/main into your local main branch. This brings your fork's main branch into sync with the upstream repository, without losing your local changes.
 ```
-git merge upstream/master
+git merge upstream/main
 Updating ddd9643..bd85c0d
 Fast-forward
  README.md                           |  89 +++++++++++++++++++++++++++++++++++-
@@ -186,14 +188,14 @@ Fast-forward
  create mode 100644 maven-setup/README.md
  create mode 100644 week1/README.md
 ```
-Your local master branch should now contain all the changes from the upstream repository.
+Your local main branch should now contain all the changes from the upstream repository.
 
 4. You should push these changes to your own repository on github.
 
 ```
 git status
-On branch master
-Your branch is ahead of 'origin/master' by 1 commit.
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
   (use "git push" to publish your local commits)
 nothing to commit, working directory clean
 
@@ -204,12 +206,12 @@ Compressing objects: 100% (10/10), done.
 Writing objects: 100% (12/12), 44.69 KiB | 0 bytes/s, done.
 Total 12 (delta 3), reused 0 (delta 0)
 remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
-To https://github.com/gallenc-test/com619-devops1.git
-   ddd9643..bd85c0d  master -> master
+To https://github.com/gallenc-test/COM304_FOUNDATION_1.git
+   ddd9643..bd85c0d  main -> main
 
 git status
-On branch master
-Your branch is up-to-date with 'origin/master'.
+On branch main
+Your branch is up-to-date with 'origin/main'.
 nothing to commit, working directory clean
 
 ```
@@ -219,14 +221,14 @@ To synchronise your repository with the upstream use the following commands
 
 If you have not set up the upstream repo
 ```
-git remote add upstream https://github.com/gallenc/com619-devops1.git
+git remote add upstream https://github.com/gallenc/COM304_FOUNDATION_1.git
 ```
 Once the upstream is set use
 
 ```
 git fetch upstream
-git checkout master
-git merge upstream/master
+git checkout main
+git merge upstream/main
 git push
 
 ```
@@ -234,7 +236,7 @@ git push
 
 ## further reading
 
-you should get familiar with the process for syncing a fork which means pulling down changes or updates from my master repository into your own fork.
+you should get familiar with the process for syncing a fork which means pulling down changes or updates from my main repository into your own fork.
 
 https://help.github.com/articles/syncing-a-fork/
 
