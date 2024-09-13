@@ -106,24 +106,10 @@ If this does not succeed, use the v (verbose) option to find out where things ha
 ssh -Tv git@github.com
 ```
 
-
 For mac or linux users, you can find further instructions here 
 https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
 
 Full details on Github secruity are here if your are interested in learning more
 https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure
 
-
-
-
-
-
-
-
-e.g. C:\\Users\.ssh\id_ed25519
-
-
-
-you can test using 
-ssh -Tv git@github.com
 
