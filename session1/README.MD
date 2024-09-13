@@ -1,5 +1,8 @@
 [Main Menu](../../main/README.md)
 
-[session1](../master/session1/) Initial exercises for the course.
+[session1](../main/session1/) 
 
-# Session 1
+# Session 1 
+
+Initial exercises for the course.
+
