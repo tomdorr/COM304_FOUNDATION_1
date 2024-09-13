@@ -81,11 +81,7 @@ git clone  git@github.com:{your github id }/COM304_FOUNDATION_1.git
 ```
 
 You should now have a clone of your fork in your gitrepos directory
-gitrepos/COM304_FOUNDATION_1
-
-You can see how to open projects in this repo using the Netbeans IDE in the exercises under
-
-[maven-test-exercise](../main/session1/maven-test-exercise)
+`gitrepos/COM304_FOUNDATION_1`
 
 ### hidden files .git and .gitignore
 You should set the view on your windows file explorer to show hidden files and file extensions. 
