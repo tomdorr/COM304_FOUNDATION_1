@@ -22,5 +22,5 @@ Dont make your own changes here.
 
 ## Using this github material
 
-
+See [Getting Started with GIT](../main/introductionToGitHub.md)
 
