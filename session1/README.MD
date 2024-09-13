@@ -1,6 +1,4 @@
-[Main Menu](../../main/README.md)
-
-[session1](../main/session1/) 
+[Main Menu](../../main/README.md) | [session1](../session1/) 
 
 # Session 1 
 
