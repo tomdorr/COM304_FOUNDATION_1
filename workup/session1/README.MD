@@ -16,3 +16,5 @@ Later you will also check out your repo on your Raspberry Pi
 
 ## getting started with your Raspberry Pi
 
+See the instructions in [Installing Raspberry PI](../session1/docs/InstallingRaspberryPI.md)
+

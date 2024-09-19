@@ -79,6 +79,36 @@ Note that you will probably need to change the monitor input to hdmi1  (attach t
 
    ![alt text](../docs/images/PiOnDesk.jpg "Figure PiOnDesk.jpg")
    
+## setting up wifi with eduroam
+
+Eduroam is a European academic wifi network which students can connect to using their university student accounts.
+Older Raspberry PI's used a different configuration method but the following will work with the latest operating system
+
+These instructions are based on using the aduroam installer from https://cat.eduroam.org/
+Go to the installer site and download the Solent University installer script for Linux (`eduroam-linux-SUS.py`)
+
+   ![alt text](../docs/images/eduroamInstaller.png "Figure eduroamInstaller.png")
+   
+You need to get this file onto your PI. 
+The easiest way is to copy it to a USB memory stick and insert the stick to the PI USB socket.
+The USB contents will show up on the desktop.
+
+You can then open a terminal and run the installer in teh terminal using python.
+
+```
+python eduroam-linux-SUS.py 
+```
+
+The installer will set up a new Eduroam Wifi session using a personal identification certificate generated from your username and password. 
+Note that you will need to use the same pi (or sd card) each session and delete the eduroam credentials at the end of the module.
+The Pi's are individually numbered for this reason.
+
+   ![alt text](../docs/images/USBInsert.png "Figure USBInsert.png")
+
+Try opening a browser on the pi and see if you can browse the internet.
+   
+
+   
 ## Shutting down your pi
 
 It is generally best not to just unplug the pi. 
