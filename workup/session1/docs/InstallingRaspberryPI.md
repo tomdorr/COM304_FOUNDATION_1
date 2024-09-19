@@ -77,7 +77,7 @@ This may take some time.
 
 Note that you will probably need to change the monitor input to hdmi1  (attach the new cable below the monitor but don't detach the normal PC).
 
-   ![alt text](../docs/images/PiOnDesk.jpg "Figure PiOnDesk.jpg")
+   ![alt text](../docs/images/piOnDesk.jpg "Figure piOnDesk.jpg")
    
 ## setting up wifi with eduroam
 
