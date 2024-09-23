@@ -51,6 +51,7 @@ This will restore connectivity to the internet through the wifi.
 
 Now that we have connetivity to the Pi we can use VNC or putty to view the screen from our PC. 
 THis makes capturing images much easier.
+(note in VNC settings you need to turn off 'pass special keys to vnc server' to be able to do a screen capture)
 
    ![alt text](../docs/images/pcVNC1.png "Figure pcVNC1.png")
 
