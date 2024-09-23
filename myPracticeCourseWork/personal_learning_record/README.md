@@ -1,5 +1,5 @@
 
-[My Practice Course Work](../../myPracticeCourseWork/) | [My Personal Learning record](../personal_learning_record/)
+[My Practice Course Work](../../myPracticeCourseWork/) | [Assessment Submission](../personal_learning_record/)
 
 Assessment Submission<BR>for<BR>COM304 Foundation Computing 2024
 
