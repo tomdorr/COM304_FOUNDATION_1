@@ -6,7 +6,7 @@
 Welcome to the module tutorial material for Solent University Foundation Computing Course (COM403) 2024.
 
 Fundamentally, software development is a collaborative activity.
-Even when you are working on your own project, you will be drawing on examples or foundation code written by someone else. 
+Even when you are working on your own project, you will be drawing on examples or library code written by someone else. 
 
 Three of the most important disciplines when working individually or in teams on software projects are 
 * documentation, 
@@ -21,12 +21,12 @@ Git is very powerful and now very widely adopted in the computer industry, suppl
 
 In this module you will learn some basic commands and practices to use Git effectively.
 
-[Github.com](https://github.com/) (now owned by Microsoft) provides a comprehensive free online tool for collaboratively managing software projects.
+[Github.com](https://github.com/) (now owned by Microsoft) provides a comprehensive set of free online tools for collaboratively managing software projects.
 GitHub hosts online version control, issue management and project management tools. 
 
-We will use github to document your work, project manage your tasks and store your code for this module.
+You will use github to document your work, project manage your tasks and store your code for this module.
 
-To use any of these tools you need to set up a personal github account. 
+To use any of these tools, you will need to set up a personal github account. 
 Your github account will be used by you for all the work you do during your university career.
 It will become like a living CV of the projects you have worked on.
 
@@ -37,14 +37,20 @@ We will cover setting up Git in [Session 1](../main/sessions/session1).
 Having set up your own github account, you will then `fork` this module repository which just means creating a clone (or copy) of this repo in your own github account.
 
 Forking the upstream repository into your account will allow you to maintain your own work based upon the tutorial material.
-Your personal work in your repository will be part of the assessment.
+
+---
+**NOTE**
+
+* Your personal work in your repository will be part of the assessment.
+
+---
 
 Forking the upstream repository will allow your tutor to continue to work on their `upstream` copy of the material while you can work separately on your own copy.
 
 If any changes are `committed` upstream by the tutor, you can `merge` those changes into your local repository and use them in your own work. 
 You can also use this as a method for getting the example code onto your raspberry pi.
 
-We will cover the merging process in [Session 1](../main/sessions/session1).
+We will cover the merging process in [Session 2](../main/sessions/session2).
 
 To make merging easier, this repository is organised in three separate sections.
 
@@ -69,6 +75,7 @@ This is where your tutor creates and updates material before publication each we
 You are welcome to look at stuff here but mostly it is not complete and won't work (yet).
 Don't make your own changes here.
 
-See [Introduction to Git](../main/introductionToGitHub.md) for more instructions on getting started with git and forking this repository.
+See [Session 1](../main/sessions/session1) for more instructions on getting started with git and forking this repository.
+
  
 
