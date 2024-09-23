@@ -93,7 +93,7 @@ You need to get this file onto your PI.
 The easiest way is to copy it to a USB memory stick and insert the stick to the PI USB socket.
 The USB contents will show up on the desktop.
 
-You can then open a terminal and run the installer in teh terminal using python.
+You can then open a terminal and run the installer in the terminal using python.
 
 ```
 python eduroam-linux-SUS.py 
@@ -105,7 +105,7 @@ The Pi's are individually numbered for this reason.
 
    ![alt text](../docs/images/USBInsert.png "Figure USBInsert.png")
 
-Try opening a browser on the pi and see if you can browse the internet.
+Try opening a browser on the pi and see if you can browse the Internet.
    
 
    
