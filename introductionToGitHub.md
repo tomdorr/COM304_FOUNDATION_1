@@ -13,7 +13,7 @@ Presently one of the most popular, git, was developed by Linus Torvalds to help 
 
 In recent years many open source projects have migrated their code base to github (https://github.com) which supports a collaborative workflow for team development and sharing of source code using git. 
 
-The principle advantage of git over other version control systems is that it is completely distributed. When you use git you clone a complete local copy of the repository you are cloning (usually referred to as the origin).
+The principle advantage of git over other version control systems is that it is completely distributed. When you use git you clone a complete local copy of the repository you are cloning (usually referred to as the `origin`).
 You can develop code and save your changes in your local repository completely off line. 
 At a later stage you may wish to `push` your changes to the on line repository or `pull` changes others have made into your local copy. 
 
@@ -83,7 +83,7 @@ git clone  git@github.com:{your github id }/COM304_FOUNDATION_1.git
 You should now have a clone of your fork in your gitrepos directory
 `gitrepos/COM304_FOUNDATION_1`
 
-### hidden files .git and .gitignore
+### hidden files `.git` and `.gitignore`
 You should set the view on your windows file explorer to show hidden files and file extensions. 
 This will allow you to see git and IDE specific files which are otherwise hidden.
 
@@ -91,9 +91,9 @@ In particular, you will see that the top level folder COM304_FOUNDATION_1 contai
 This is where git stores all of the branches versions and changes to your repository. 
 The rest of the files under COM304_FOUNDATION_1 are the currently checked out versions of your code.
 
-You will also notice that many of the projects in this repo have a .gitignore file.
+You will also notice that many of the projects in this repo have a `.gitignore` file.
 This tells git to ignore certain directories or files when committing changes.
-.gitignore files inherit from .gitignore files further up the class path. This allows you to have a generic .gitignore and a more specific one in a nested folder to specify project specific files you don't want to check in in. 
+`.gitignore` files inherit from `.gitignore` files further up the class path. This allows you to have a generic `.gitignore` and a more specific one in a nested folder to specify project specific files you don't want to check in in. 
 
 It is VERY important to ensure that, in particular 'target', directories are NOT checked into git as this would fill your repository up with unnecessary class and jar files.
 
@@ -102,12 +102,12 @@ You should also ensure that in most cases IDE specific sub folders and files are
 The example [.gitignore](../main/.gitignore)  should be suitable for most purposes and should be copied into the top level of your git repository.
 
 ### Syncing with the upstream repo
-I will be adding stuff to the upstream repo each week and you should be able to pull these into your local repo using the procedure described below.
+Your tutor will be adding stuff to the upstream repo each week and you should be able to pull these into your local repo using the procedure described below.
 
 PLEASE DO NOT CHANGE ANYTHING IN YOUR LOCAL REPO EXCEPT IN myPracticeCourseWork.
- this will allow merges to go smoothly.
+This will allow merges to go smoothly.
 
-you can see which remote repositories are referenced in your local repo using
+You can see which remote repositories are referenced in your local repo using
 ```
 $ git remote -v
 origin  https://github.com/{ your github id}/COM304_FOUNDATION_1.git (fetch)
@@ -124,7 +124,7 @@ To sync with the upstream repo you need to add another remote repository
 ```
 $ git remote add upstream https://github.com/gallenc/COM304_FOUNDATION_1.git
 ```
-NOTE even if you are using SSH to acces your repo, use https to access the upstream repo because you do not need a password or certificates to pull a public repo.
+NOTE even if you are using SSH to access your own repo, you should use use https to access the upstream repo because you do not need a password or certificates to pull a public repo.
 
 To see the upstream repositories use
 ```
@@ -143,11 +143,11 @@ upstream        https://github.com/gallenc/COM304_FOUNDATION_1.git (fetch)
 upstream        https://github.com/gallenc/COM304_FOUNDATION_1.git (push)
 ```
 
-Note that git calls the github repository which your repository is linked to 'origin'.
-This is the respository on github where where push commands normally send the changes.
+Note that git calls the github repository which your repository is linked to `origin`.
+This is the repository on github where where push commands normally send the changes.
 The 'upstream' repository is an alternative repository from which you pull additional content for merging with your work.
 
-Having made these changes you can now keep your own fork of COM304_FOUNDATION_1 synced with the class examples in the upstream repository using a few Git commands.
+Having made these changes you can now keep your own fork of COM304_FOUNDATION_1 synchronised with the class examples in the upstream repository using a few Git commands.
 
 1. Fetch the branches and their respective commits from the upstream repository. 
 Commits to main will be stored in a local branch, upstream/main.
@@ -186,7 +186,7 @@ Fast-forward
 ```
 Your local main branch should now contain all the changes from the upstream repository.
 
-4. You should push these changes to your own repository on github.
+4. You should now push these changes to your own repository on github.
 
 ```
 git status
@@ -216,10 +216,11 @@ nothing to commit, working directory clean
 To synchronise your repository with the upstream use the following commands
 
 If you have not set up the upstream repo
+
 ```
 git remote add upstream https://github.com/gallenc/COM304_FOUNDATION_1.git
 ```
-Once the upstream is set use
+Once the upstream is set, use
 
 ```
 git fetch upstream
@@ -232,7 +233,7 @@ git push
 
 ## further reading
 
-you should get familiar with the process for syncing a fork which means pulling down changes or updates from my main repository into your own fork.
+You should get familiar with the process for syncing a fork which means pulling down changes or updates from my main repository into your own fork.
 
 https://help.github.com/articles/syncing-a-fork/
 
