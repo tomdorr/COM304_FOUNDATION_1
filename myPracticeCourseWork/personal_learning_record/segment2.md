@@ -1,4 +1,4 @@
-[Contents](../personal_learning_record/personal_learning_record.md) | [Personal Reflection](../personal_learning_record/segment2.md) 
+[Contents](../personal_learning_record/personal_learning_record.md) | [Segment 2 - Languages and OS](../personal_learning_record/segment2.md) 
 
 # Segment 2 - Languages and Operating Systems
 
@@ -18,4 +18,6 @@ use  screen shots and / or code samples as appropriate.
 ## session 7
 
 ## session 8 (consolidate)
+
+TBD
 

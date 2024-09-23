@@ -9,7 +9,7 @@
 
 ## Introduction
 
-These markdown pages contain my notes and reflections on the material presented in class and also my personal research and learning around the module
+These markdown pages contain my notes and reflections on the material presented in class and also my personal research and learning around the module.
 
 ## personal notes
 

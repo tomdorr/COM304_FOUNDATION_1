@@ -1,4 +1,4 @@
-[Contents](../personal_learning_record/personal_learning_record.md) | [Personal Reflection](../personal_learning_record/segment3.md) 
+[Contents](../personal_learning_record/personal_learning_record.md) | [Segment 3 - Networking and Cloud](../personal_learning_record/segment3.md) 
 
 # Segment 3 - Networking and Cloud
 
@@ -18,4 +18,6 @@ use  screen shots and / or code samples as appropriate.
 ## session 11
 
 ## session 12 (consolidate)
+
+TBD
 
