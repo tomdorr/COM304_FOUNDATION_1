@@ -3,9 +3,9 @@
 |      |      |
 |:---- |:---- |
 | Course and Year | COM304 Foundation Computing 2024 | 
-| Student Name | |
-| Student Number | |
-| Github Account | |
+| Student Name | Tom Dorr |
+| Student Number | Q102635139 |
+| Github Account | https://github.com/tomdorr |
 
 ## Introduction
 
