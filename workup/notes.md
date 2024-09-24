@@ -144,6 +144,9 @@ This is the source code for an interactive ARM v7 assembly tutorial. A live vers
 The goal of the tutorial is to understand assembly well enough to understand how high level code and data are implemented and develop familiarity with working with assembly and with binary representations of data.
 
 
+cpulator - really good example for vga display code
+https://github.com/Tapendra-195/Armv7/tree/main
+https://www.youtube.com/watch?v=hHSdjHJekuk%20%20%20VGA%20in%20Arm%20Assembly%20|%20cpulator
 
 
 
