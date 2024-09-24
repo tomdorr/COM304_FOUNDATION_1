@@ -7,8 +7,8 @@
 
 |Session      |Subject  |Details|
 | -------- | ------- | ------|
-| [Session 1](../sessions/session1) |Introduction|Course overview<br>Assessment overview<br>History of computing<br>Getting started with a raspberry pi|
-| [Session 2](../sessions/session2)|Basic architecture|Introduction to computer architecture<br>Binary, bytes and Boolean algebra<br>Looking at memory in a pi|
+| [Session 1](../sessions/session1) |Introduction|Course overview<br>Assessment overview<br>Getting started with a raspberry pi|
+| [Session 2](../sessions/session2)|Basic architecture|History of computing<br>Introduction to computer architecture<br>Binary, bytes and Boolean algebra<br>Looking at memory in a pi|
 | [Session 3](../sessions/session3)|More architecture|Microprocessor architecture<br>Assembler<br>Accessing pi gpio|
 | [Session 4](../sessions/session4)|Consolidate|Catch up|
 | [Session 5](../sessions/session5)|Languages|Introduction to computer languages<br>C language<br>JavaScript /node red|
