@@ -150,3 +150,9 @@ https://www.youtube.com/watch?v=hHSdjHJekuk%20%20%20VGA%20in%20Arm%20Assembly%20
 
 https://github.com/nicholas3d2/ARM-tower-defense%20%20ARM-tower-defense
 
+https://www-ug.eecg.utoronto.ca/desl/nios_devices_SoC/ARM/dev_7segs.html  7 segment display
+
+lots of examples https://www-ug.eecg.utoronto.ca/desl/nios_devices_SoC/ARM/  -differnt io
+
+
+https://hackaday.io/project/186626-let-us-assemble-some-arm-together/details  ARM and pi
