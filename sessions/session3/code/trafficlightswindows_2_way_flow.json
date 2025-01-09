@@ -1,0 +1,1532 @@
+[
+    {
+        "id": "cf1dd5a430ba2e04",
+        "type": "tab",
+        "label": "Traffic lights",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "7aa00ae4517bdb59",
+        "type": "junction",
+        "z": "cf1dd5a430ba2e04",
+        "x": 360,
+        "y": 160,
+        "wires": [
+            [
+                "3843ea552e1ebf49"
+            ]
+        ]
+    },
+    {
+        "id": "41e4fe9edc72f2d5",
+        "type": "junction",
+        "z": "cf1dd5a430ba2e04",
+        "x": 720,
+        "y": 120,
+        "wires": [
+            [
+                "baa1a80003ff987e",
+                "bd14f922183efed4"
+            ]
+        ]
+    },
+    {
+        "id": "672f6ad0db70e4a8",
+        "type": "junction",
+        "z": "cf1dd5a430ba2e04",
+        "x": 720,
+        "y": 300,
+        "wires": [
+            [
+                "baa1a80003ff987e",
+                "bd14f922183efed4"
+            ]
+        ]
+    },
+    {
+        "id": "03fba1de3e52838c",
+        "type": "junction",
+        "z": "cf1dd5a430ba2e04",
+        "x": 720,
+        "y": 800,
+        "wires": [
+            [
+                "be5c4107e885921d"
+            ]
+        ]
+    },
+    {
+        "id": "7dd49fd7de0da8a9",
+        "type": "junction",
+        "z": "cf1dd5a430ba2e04",
+        "x": 720,
+        "y": 200,
+        "wires": [
+            [
+                "f15a319228272679",
+                "bb8f7174cac0235b"
+            ]
+        ]
+    },
+    {
+        "id": "a25c1cc1315dba04",
+        "type": "junction",
+        "z": "cf1dd5a430ba2e04",
+        "x": 360,
+        "y": 760,
+        "wires": [
+            [
+                "653e6b410b6e31ff"
+            ]
+        ]
+    },
+    {
+        "id": "7d3f7c5f5a65924f",
+        "type": "junction",
+        "z": "cf1dd5a430ba2e04",
+        "x": 360,
+        "y": 840,
+        "wires": [
+            [
+                "df192783d99d2f74"
+            ]
+        ]
+    },
+    {
+        "id": "ec29a05ebc3a3d1d",
+        "type": "junction",
+        "z": "cf1dd5a430ba2e04",
+        "x": 360,
+        "y": 520,
+        "wires": [
+            [
+                "1aad1f2f7fa1db53"
+            ]
+        ]
+    },
+    {
+        "id": "eaf2d0f0bfc0061c",
+        "type": "junction",
+        "z": "cf1dd5a430ba2e04",
+        "x": 720,
+        "y": 340,
+        "wires": [
+            [
+                "db9dc7ac357b5c74"
+            ]
+        ]
+    },
+    {
+        "id": "6b89bc73eec2f93c",
+        "type": "junction",
+        "z": "cf1dd5a430ba2e04",
+        "x": 720,
+        "y": 380,
+        "wires": [
+            [
+                "f15a319228272679",
+                "bb8f7174cac0235b"
+            ]
+        ]
+    },
+    {
+        "id": "92bde0bedb56879c",
+        "type": "junction",
+        "z": "cf1dd5a430ba2e04",
+        "x": 360,
+        "y": 600,
+        "wires": [
+            [
+                "1c1afb7c40edbd0b"
+            ]
+        ]
+    },
+    {
+        "id": "ee868bc28dde8010",
+        "type": "junction",
+        "z": "cf1dd5a430ba2e04",
+        "x": 360,
+        "y": 560,
+        "wires": [
+            [
+                "634b31125377a4f2"
+            ]
+        ]
+    },
+    {
+        "id": "eed21ceaa0097e8f",
+        "type": "junction",
+        "z": "cf1dd5a430ba2e04",
+        "x": 720,
+        "y": 520,
+        "wires": [
+            [
+                "167dd468fa1e1195"
+            ]
+        ]
+    },
+    {
+        "id": "9d8354f0a5967fd2",
+        "type": "junction",
+        "z": "cf1dd5a430ba2e04",
+        "x": 720,
+        "y": 560,
+        "wires": [
+            [
+                "3e9362aa7b1ae88e"
+            ]
+        ]
+    },
+    {
+        "id": "6825c03a83d5d198",
+        "type": "junction",
+        "z": "cf1dd5a430ba2e04",
+        "x": 720,
+        "y": 600,
+        "wires": [
+            [
+                "be5c4107e885921d"
+            ]
+        ]
+    },
+    {
+        "id": "5d4181f631621fd1",
+        "type": "junction",
+        "z": "cf1dd5a430ba2e04",
+        "x": 720,
+        "y": 840,
+        "wires": [
+            [
+                "3e9362aa7b1ae88e"
+            ]
+        ]
+    },
+    {
+        "id": "ca7f9f14781ba689",
+        "type": "junction",
+        "z": "cf1dd5a430ba2e04",
+        "x": 360,
+        "y": 300,
+        "wires": [
+            [
+                "8c3a389b9b688409"
+            ]
+        ]
+    },
+    {
+        "id": "052d4f863c49c43c",
+        "type": "junction",
+        "z": "cf1dd5a430ba2e04",
+        "x": 360,
+        "y": 340,
+        "wires": [
+            [
+                "9587b086070dcf1e"
+            ]
+        ]
+    },
+    {
+        "id": "63dbd57a22ca7f71",
+        "type": "junction",
+        "z": "cf1dd5a430ba2e04",
+        "x": 360,
+        "y": 800,
+        "wires": [
+            [
+                "47e03e37f0d22936"
+            ]
+        ]
+    },
+    {
+        "id": "65bb9563f017cae9",
+        "type": "junction",
+        "z": "cf1dd5a430ba2e04",
+        "x": 360,
+        "y": 200,
+        "wires": [
+            [
+                "7c3992738a295cd5"
+            ]
+        ]
+    },
+    {
+        "id": "4f62b2c2316c9c60",
+        "type": "junction",
+        "z": "cf1dd5a430ba2e04",
+        "x": 720,
+        "y": 160,
+        "wires": [
+            [
+                "d068ce73c4587068"
+            ]
+        ]
+    },
+    {
+        "id": "fe8158858927f44c",
+        "type": "junction",
+        "z": "cf1dd5a430ba2e04",
+        "x": 360,
+        "y": 120,
+        "wires": [
+            [
+                "8ab5dd1ebf2bf503"
+            ]
+        ]
+    },
+    {
+        "id": "56da1686a8e83661",
+        "type": "junction",
+        "z": "cf1dd5a430ba2e04",
+        "x": 360,
+        "y": 380,
+        "wires": [
+            [
+                "d0a3fd700794f823"
+            ]
+        ]
+    },
+    {
+        "id": "cc5bfa7ebba88961",
+        "type": "junction",
+        "z": "cf1dd5a430ba2e04",
+        "x": 720,
+        "y": 760,
+        "wires": [
+            [
+                "3e9362aa7b1ae88e"
+            ]
+        ]
+    },
+    {
+        "id": "959a629bbdb1329f",
+        "type": "junction",
+        "z": "cf1dd5a430ba2e04",
+        "x": 720,
+        "y": 240,
+        "wires": [
+            [
+                "8940d069672b50d1"
+            ]
+        ]
+    },
+    {
+        "id": "883a79a93e145eda",
+        "type": "junction",
+        "z": "cf1dd5a430ba2e04",
+        "x": 360,
+        "y": 240,
+        "wires": [
+            [
+                "e5d9c99a15576c12"
+            ]
+        ]
+    },
+    {
+        "id": "6330fa2310c4b713",
+        "type": "junction",
+        "z": "cf1dd5a430ba2e04",
+        "x": 720,
+        "y": 420,
+        "wires": [
+            [
+                "775d5ffd0eba808d"
+            ]
+        ]
+    },
+    {
+        "id": "bc7dfad171e532d9",
+        "type": "junction",
+        "z": "cf1dd5a430ba2e04",
+        "x": 360,
+        "y": 420,
+        "wires": [
+            [
+                "975513706ea65f91"
+            ]
+        ]
+    },
+    {
+        "id": "7b967f397c77d363",
+        "type": "junction",
+        "z": "cf1dd5a430ba2e04",
+        "x": 300,
+        "y": 800,
+        "wires": [
+            [
+                "a25c1cc1315dba04",
+                "7d3f7c5f5a65924f",
+                "63dbd57a22ca7f71"
+            ]
+        ]
+    },
+    {
+        "id": "28dfbaf39d02b3b0",
+        "type": "junction",
+        "z": "cf1dd5a430ba2e04",
+        "x": 660,
+        "y": 800,
+        "wires": [
+            [
+                "03fba1de3e52838c"
+            ]
+        ]
+    },
+    {
+        "id": "653e6b410b6e31ff",
+        "type": "junction",
+        "z": "cf1dd5a430ba2e04",
+        "x": 420,
+        "y": 760,
+        "wires": [
+            [
+                "8815b944e6384883"
+            ]
+        ]
+    },
+    {
+        "id": "df192783d99d2f74",
+        "type": "junction",
+        "z": "cf1dd5a430ba2e04",
+        "x": 420,
+        "y": 840,
+        "wires": [
+            [
+                "ff86a020e1e4246b"
+            ]
+        ]
+    },
+    {
+        "id": "17c069f8e7a70854",
+        "type": "junction",
+        "z": "cf1dd5a430ba2e04",
+        "x": 660,
+        "y": 840,
+        "wires": [
+            [
+                "5d4181f631621fd1"
+            ]
+        ]
+    },
+    {
+        "id": "47e03e37f0d22936",
+        "type": "junction",
+        "z": "cf1dd5a430ba2e04",
+        "x": 420,
+        "y": 800,
+        "wires": [
+            [
+                "fe94325e945c7b3a"
+            ]
+        ]
+    },
+    {
+        "id": "9ce58e69b8760abb",
+        "type": "junction",
+        "z": "cf1dd5a430ba2e04",
+        "x": 660,
+        "y": 760,
+        "wires": [
+            [
+                "cc5bfa7ebba88961"
+            ]
+        ]
+    },
+    {
+        "id": "8ba22b410a1e6d69",
+        "type": "junction",
+        "z": "cf1dd5a430ba2e04",
+        "x": 360,
+        "y": 640,
+        "wires": [
+            [
+                "e266c1b0a43fc21b"
+            ]
+        ]
+    },
+    {
+        "id": "4710f9c805d22136",
+        "type": "junction",
+        "z": "cf1dd5a430ba2e04",
+        "x": 720,
+        "y": 640,
+        "wires": [
+            [
+                "3e9362aa7b1ae88e"
+            ]
+        ]
+    },
+    {
+        "id": "b652e912e5c76792",
+        "type": "junction",
+        "z": "cf1dd5a430ba2e04",
+        "x": 720,
+        "y": 720,
+        "wires": [
+            [
+                "167dd468fa1e1195"
+            ]
+        ]
+    },
+    {
+        "id": "1d3c8e3427c3770b",
+        "type": "junction",
+        "z": "cf1dd5a430ba2e04",
+        "x": 340,
+        "y": 720,
+        "wires": [
+            [
+                "9c7776f269a7599a"
+            ]
+        ]
+    },
+    {
+        "id": "db9dc7ac357b5c74",
+        "type": "junction",
+        "z": "cf1dd5a430ba2e04",
+        "x": 1140,
+        "y": 340,
+        "wires": [
+            [
+                "4783247dca6137a2",
+                "8c8ff3a2512fc3c5"
+            ]
+        ]
+    },
+    {
+        "id": "775d5ffd0eba808d",
+        "type": "junction",
+        "z": "cf1dd5a430ba2e04",
+        "x": 1140,
+        "y": 420,
+        "wires": [
+            [
+                "4783247dca6137a2",
+                "8c8ff3a2512fc3c5"
+            ]
+        ]
+    },
+    {
+        "id": "8940d069672b50d1",
+        "type": "junction",
+        "z": "cf1dd5a430ba2e04",
+        "x": 1140,
+        "y": 240,
+        "wires": [
+            [
+                "4783247dca6137a2",
+                "8c8ff3a2512fc3c5"
+            ]
+        ]
+    },
+    {
+        "id": "d068ce73c4587068",
+        "type": "junction",
+        "z": "cf1dd5a430ba2e04",
+        "x": 1140,
+        "y": 160,
+        "wires": [
+            [
+                "4783247dca6137a2",
+                "8c8ff3a2512fc3c5"
+            ]
+        ]
+    },
+    {
+        "id": "d70984ab0207e85f",
+        "type": "inject",
+        "z": "cf1dd5a430ba2e04",
+        "name": "Switch on (1)",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "15",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 160,
+        "y": 180,
+        "wires": [
+            [
+                "7aa00ae4517bdb59",
+                "65bb9563f017cae9",
+                "fe8158858927f44c",
+                "883a79a93e145eda"
+            ]
+        ]
+    },
+    {
+        "id": "41d475279781474d",
+        "type": "inject",
+        "z": "cf1dd5a430ba2e04",
+        "name": "Switch on (2)",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "v": "1",
+                "vt": "num"
+            }
+        ],
+        "repeat": "15",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "7.5",
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 160,
+        "y": 560,
+        "wires": [
+            [
+                "92bde0bedb56879c",
+                "ee868bc28dde8010",
+                "ec29a05ebc3a3d1d",
+                "8ba22b410a1e6d69"
+            ]
+        ]
+    },
+    {
+        "id": "baa1a80003ff987e",
+        "type": "ui_led",
+        "z": "cf1dd5a430ba2e04",
+        "order": 1,
+        "group": "13502129e0ca561a",
+        "width": 3,
+        "height": 1,
+        "label": "RED LED 1",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#000000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#ff0000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "RED LED 1",
+        "x": 990,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "167dd468fa1e1195",
+        "type": "ui_led",
+        "z": "cf1dd5a430ba2e04",
+        "order": 2,
+        "group": "13502129e0ca561a",
+        "width": 3,
+        "height": 1,
+        "label": "RED LED 2",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#000000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#ff0000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "RED LED 2",
+        "x": 930,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "8c8ff3a2512fc3c5",
+        "type": "ui_led",
+        "z": "cf1dd5a430ba2e04",
+        "order": 3,
+        "group": "13502129e0ca561a",
+        "width": 3,
+        "height": 1,
+        "label": "AMBER LED 1",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#000000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#ffff00",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": " AMBER LED 1",
+        "x": 1360,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "3e9362aa7b1ae88e",
+        "type": "ui_led",
+        "z": "cf1dd5a430ba2e04",
+        "order": 4,
+        "group": "13502129e0ca561a",
+        "width": 3,
+        "height": 1,
+        "label": "AMBER LED 2",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#000000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#ffff00",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": " AMBER LED 2",
+        "x": 940,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "f15a319228272679",
+        "type": "ui_led",
+        "z": "cf1dd5a430ba2e04",
+        "order": 5,
+        "group": "13502129e0ca561a",
+        "width": 3,
+        "height": 1,
+        "label": "GREEN LED 1",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#000000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": " GREEN LED 1",
+        "x": 1000,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "be5c4107e885921d",
+        "type": "ui_led",
+        "z": "cf1dd5a430ba2e04",
+        "order": 6,
+        "group": "13502129e0ca561a",
+        "width": 3,
+        "height": 1,
+        "label": "GREEN LED 2",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#000000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": " GREEN LED 2",
+        "x": 940,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "fe94325e945c7b3a",
+        "type": "delay",
+        "z": "cf1dd5a430ba2e04",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "13",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 520,
+        "y": 800,
+        "wires": [
+            [
+                "28dfbaf39d02b3b0"
+            ]
+        ]
+    },
+    {
+        "id": "ff86a020e1e4246b",
+        "type": "delay",
+        "z": "cf1dd5a430ba2e04",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "15",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 520,
+        "y": 840,
+        "wires": [
+            [
+                "17c069f8e7a70854"
+            ]
+        ]
+    },
+    {
+        "id": "8815b944e6384883",
+        "type": "delay",
+        "z": "cf1dd5a430ba2e04",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "10",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 520,
+        "y": 760,
+        "wires": [
+            [
+                "9ce58e69b8760abb"
+            ]
+        ]
+    },
+    {
+        "id": "7c3992738a295cd5",
+        "type": "delay",
+        "z": "cf1dd5a430ba2e04",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "10",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 520,
+        "y": 200,
+        "wires": [
+            [
+                "7dd49fd7de0da8a9"
+            ]
+        ]
+    },
+    {
+        "id": "3843ea552e1ebf49",
+        "type": "delay",
+        "z": "cf1dd5a430ba2e04",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "8",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 520,
+        "y": 160,
+        "wires": [
+            [
+                "4f62b2c2316c9c60"
+            ]
+        ]
+    },
+    {
+        "id": "8c3a389b9b688409",
+        "type": "delay",
+        "z": "cf1dd5a430ba2e04",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "10",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 520,
+        "y": 300,
+        "wires": [
+            [
+                "672f6ad0db70e4a8"
+            ]
+        ]
+    },
+    {
+        "id": "9587b086070dcf1e",
+        "type": "delay",
+        "z": "cf1dd5a430ba2e04",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "10",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 520,
+        "y": 340,
+        "wires": [
+            [
+                "eaf2d0f0bfc0061c"
+            ]
+        ]
+    },
+    {
+        "id": "d0a3fd700794f823",
+        "type": "delay",
+        "z": "cf1dd5a430ba2e04",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "13",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 520,
+        "y": 380,
+        "wires": [
+            [
+                "6b89bc73eec2f93c"
+            ]
+        ]
+    },
+    {
+        "id": "1aad1f2f7fa1db53",
+        "type": "delay",
+        "z": "cf1dd5a430ba2e04",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "0",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 520,
+        "y": 520,
+        "wires": [
+            [
+                "eed21ceaa0097e8f"
+            ]
+        ]
+    },
+    {
+        "id": "634b31125377a4f2",
+        "type": "delay",
+        "z": "cf1dd5a430ba2e04",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "8",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 520,
+        "y": 560,
+        "wires": [
+            [
+                "9d8354f0a5967fd2"
+            ]
+        ]
+    },
+    {
+        "id": "1c1afb7c40edbd0b",
+        "type": "delay",
+        "z": "cf1dd5a430ba2e04",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "10",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 520,
+        "y": 600,
+        "wires": [
+            [
+                "6825c03a83d5d198"
+            ]
+        ]
+    },
+    {
+        "id": "a98794e23b7c1ff6",
+        "type": "inject",
+        "z": "cf1dd5a430ba2e04",
+        "name": "Switch off (2)",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "15",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "7.5",
+        "topic": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "x": 160,
+        "y": 800,
+        "wires": [
+            [
+                "7b967f397c77d363",
+                "1d3c8e3427c3770b"
+            ]
+        ]
+    },
+    {
+        "id": "cb25a9bdb73ee83c",
+        "type": "inject",
+        "z": "cf1dd5a430ba2e04",
+        "name": "Switch off (1)",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "v": "0",
+                "vt": "num"
+            }
+        ],
+        "repeat": "15",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "x": 160,
+        "y": 360,
+        "wires": [
+            [
+                "ca7f9f14781ba689",
+                "052d4f863c49c43c",
+                "56da1686a8e83661",
+                "bc7dfad171e532d9"
+            ]
+        ]
+    },
+    {
+        "id": "8ab5dd1ebf2bf503",
+        "type": "delay",
+        "z": "cf1dd5a430ba2e04",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "0",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 520,
+        "y": 120,
+        "wires": [
+            [
+                "41e4fe9edc72f2d5"
+            ]
+        ]
+    },
+    {
+        "id": "d1a8c470b3d816d9",
+        "type": "comment",
+        "z": "cf1dd5a430ba2e04",
+        "name": "R1",
+        "info": "",
+        "x": 410,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "009eb2356f30c50e",
+        "type": "comment",
+        "z": "cf1dd5a430ba2e04",
+        "name": "A1",
+        "info": "",
+        "x": 410,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "3e7428af7e52a1e4",
+        "type": "comment",
+        "z": "cf1dd5a430ba2e04",
+        "name": "G1",
+        "info": "",
+        "x": 410,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "8e119b39754b33fb",
+        "type": "comment",
+        "z": "cf1dd5a430ba2e04",
+        "name": "A1",
+        "info": "",
+        "x": 410,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "55c12fea6af83ed3",
+        "type": "comment",
+        "z": "cf1dd5a430ba2e04",
+        "name": "R1",
+        "info": "",
+        "x": 410,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "fadbabcd1f762882",
+        "type": "comment",
+        "z": "cf1dd5a430ba2e04",
+        "name": "G1",
+        "info": "",
+        "x": 410,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "7553f87277e244db",
+        "type": "comment",
+        "z": "cf1dd5a430ba2e04",
+        "name": "A2",
+        "info": "",
+        "x": 410,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "e72d5be946ee25c2",
+        "type": "comment",
+        "z": "cf1dd5a430ba2e04",
+        "name": "R2",
+        "info": "",
+        "x": 410,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "14f730f31c966e46",
+        "type": "comment",
+        "z": "cf1dd5a430ba2e04",
+        "name": "G2",
+        "info": "",
+        "x": 410,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "b0151d6a9d2e4201",
+        "type": "comment",
+        "z": "cf1dd5a430ba2e04",
+        "name": "R2",
+        "info": "",
+        "x": 410,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "b52d0e7679e959a0",
+        "type": "comment",
+        "z": "cf1dd5a430ba2e04",
+        "name": "A2",
+        "info": "",
+        "x": 410,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "5d4e170c2e975fbf",
+        "type": "comment",
+        "z": "cf1dd5a430ba2e04",
+        "name": "G2",
+        "info": "",
+        "x": 410,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "e5d9c99a15576c12",
+        "type": "delay",
+        "z": "cf1dd5a430ba2e04",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "13",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 520,
+        "y": 240,
+        "wires": [
+            [
+                "959a629bbdb1329f"
+            ]
+        ]
+    },
+    {
+        "id": "975513706ea65f91",
+        "type": "delay",
+        "z": "cf1dd5a430ba2e04",
+        "name": "delay 15s",
+        "pauseType": "delay",
+        "timeout": "15",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 520,
+        "y": 420,
+        "wires": [
+            [
+                "6330fa2310c4b713"
+            ]
+        ]
+    },
+    {
+        "id": "50baac33290a68dd",
+        "type": "comment",
+        "z": "cf1dd5a430ba2e04",
+        "name": "A1",
+        "info": "",
+        "x": 410,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "8cd84c4fa466feb4",
+        "type": "comment",
+        "z": "cf1dd5a430ba2e04",
+        "name": "A1",
+        "info": "",
+        "x": 410,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "e266c1b0a43fc21b",
+        "type": "delay",
+        "z": "cf1dd5a430ba2e04",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "13",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 520,
+        "y": 640,
+        "wires": [
+            [
+                "4710f9c805d22136"
+            ]
+        ]
+    },
+    {
+        "id": "aca651eac2b9560f",
+        "type": "comment",
+        "z": "cf1dd5a430ba2e04",
+        "name": "A2",
+        "info": "",
+        "x": 410,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "9c7776f269a7599a",
+        "type": "delay",
+        "z": "cf1dd5a430ba2e04",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "10",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 520,
+        "y": 720,
+        "wires": [
+            [
+                "b652e912e5c76792"
+            ]
+        ]
+    },
+    {
+        "id": "0bd5254c7fbf31e6",
+        "type": "comment",
+        "z": "cf1dd5a430ba2e04",
+        "name": "A2",
+        "info": "",
+        "x": 410,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "bd14f922183efed4",
+        "type": "rpi-gpio out",
+        "z": "cf1dd5a430ba2e04",
+        "name": "",
+        "pin": "17",
+        "set": true,
+        "level": "0",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 980,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "4783247dca6137a2",
+        "type": "rpi-gpio out",
+        "z": "cf1dd5a430ba2e04",
+        "name": "",
+        "pin": "27",
+        "set": true,
+        "level": "0",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 1340,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "bb8f7174cac0235b",
+        "type": "rpi-gpio out",
+        "z": "cf1dd5a430ba2e04",
+        "name": "",
+        "pin": "22",
+        "set": true,
+        "level": "0",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 980,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "10488b5e85b4e9f4",
+        "type": "ui_spacer",
+        "z": "cf1dd5a430ba2e04",
+        "name": "spacer",
+        "group": "4cdd3327.ec0dec",
+        "order": 3,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "f19654ffaea594c8",
+        "type": "ui_spacer",
+        "z": "cf1dd5a430ba2e04",
+        "name": "spacer",
+        "group": "4cdd3327.ec0dec",
+        "order": 4,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "a2d8caa1a96671cc",
+        "type": "ui_spacer",
+        "z": "cf1dd5a430ba2e04",
+        "name": "spacer",
+        "group": "4cdd3327.ec0dec",
+        "order": 5,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "3d18cca5e34e7d5f",
+        "type": "ui_spacer",
+        "z": "cf1dd5a430ba2e04",
+        "name": "spacer",
+        "group": "4cdd3327.ec0dec",
+        "order": 6,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "13502129e0ca561a",
+        "type": "ui_group",
+        "name": "Traffic lights",
+        "tab": "a16032b3cdd867f8",
+        "order": 1,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "4cdd3327.ec0dec",
+        "type": "ui_group",
+        "name": "Arqiva Bilsdale main site",
+        "tab": "4d9a0d6d.e9c3a4",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "a16032b3cdd867f8",
+        "type": "ui_tab",
+        "name": "Traffic LIghts",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "4d9a0d6d.e9c3a4",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "order": 4
+    }
+]

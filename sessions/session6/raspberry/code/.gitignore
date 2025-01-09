@@ -1,0 +1,6 @@
+# git ignore object files and the generated program file
+
+*.o
+
+readbuttons1
+writeleds

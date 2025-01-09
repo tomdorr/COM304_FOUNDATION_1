@@ -4,7 +4,7 @@
 This will teach you a little bit about git and how to fork a copy of this repository into your own github account.
 
 You will then be able to clone your fork locally.
-After this you can then proceed to doing the exercises in [session1](../main/sessions/session1/).
+After this you can then proceed to doing the exercises in [session2](../main/sessions/session2/).
 
 ### Introduction to GIT
 To be a professional developer, you will need to become proficient at using version control systems.

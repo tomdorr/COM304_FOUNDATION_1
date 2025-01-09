@@ -44,4 +44,6 @@ derby.log
 # libre office xls lock files
 .~lock*
 
+# drawio
+*.bkp
 

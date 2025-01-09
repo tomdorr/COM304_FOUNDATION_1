@@ -1,3 +1,5 @@
+[session1](../../session1/) | [Installing a Raspberry Pi](../docs/InstallingRaspberryPI.md)
+
 # Installing a Raspberry Pi
 
 Raspberry PI is a small single board computer originally designed for education but now also widely used in industrial applications. 

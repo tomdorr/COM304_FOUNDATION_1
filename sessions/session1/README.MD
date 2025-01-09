@@ -2,7 +2,36 @@
 
 # Session 1 
 
+In this session we will introduce the module and explain the assessment.
+
+For your assessment, you will be required to submit a Personal Learning Record PLR which records and provides evidence of the learning you have done during the module. 
+Full details of the assessment, submission dates and and the grading criteria are on the Solent Online Learning page for this module.
+
+We are asking you to submit assessment as a set of pages and a project plan on Github since learning how to use git and  github is today an essential skill for every programmer.
+
+Later in this session you will set up a github account, learn how to clone this repository and begin creating your PLR.
+
+Finally in this session we will set up a Raspberry Pi for use in class experiments.
+
+We will begin however with a short history of computing.
+
+## Short history of computing
+
+At the beginning of the module it will be good to take some time to think about the short history of computing that has brought us to the technology we have today.
+
+Presentation: [short History of computing](../session1/docs/com304-foundation-history-1.0.pdf)
+
 ## Getting started with git
+
+You will be required to record your class work using Github.
+
+Git is a tool invented by Linus Torvalds for version controlling and collaboratively working on large projects such as the Linux Kernel.
+
+Github is a web site, now owned by Microsoft, which many programmers and organisations use to host their code.
+In addition to simply hosting the code in Git, Github also provides many tools which can support the 'Devops' processes of large teams.
+These include project documentation and project planning tools, package release hosting, web site hosting, issue and pull request management (github flow) and CI/CD tools using github automations.
+
+At this stage we will simply learn to use the Git and Project Management capabilities.
 
 If you already have a github account, you can use that for this work.
 If you do not already have a personal account you will first need to create a github account at [https://github.com](https://github.com)
